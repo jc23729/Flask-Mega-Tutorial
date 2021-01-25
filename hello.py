@@ -18,6 +18,6 @@ def index():
 def user(name):
     return render_template('user.html, name=name')
 
-
+##Need to figure out if going to follow the book or the blog
 
 if __name__ == '__main__': app.run()
